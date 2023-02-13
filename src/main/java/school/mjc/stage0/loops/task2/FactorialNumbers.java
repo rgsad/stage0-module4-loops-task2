@@ -7,10 +7,10 @@ public class FactorialNumbers {
         if (printToInclusive == 0) {
             System.out.println(factorial);
         }
-        while (counter <= printToInclusive) {
+        while (counter <= printToInclusive+1) {
             System.out.println(factorial);
-            counter++;
             factorial *= counter;
+            counter++;
         }
     }
 }
