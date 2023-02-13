@@ -9,8 +9,8 @@ public class FactorialNumbers {
         }
         while (counter <= printToInclusive) {
             System.out.println(factorial);
-            factorial *= counter;
             counter++;
+            factorial *= counter;
         }
     }
 }
